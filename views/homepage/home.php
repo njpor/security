@@ -12,7 +12,7 @@
 
 </head>
 
-    <!------------------------------------------------ส่วนหน้าเว็บแรก--------------------------------------------------------->
+<!------------------------------------------------ส่วนหน้าเว็บแรก--------------------------------------------------------->
 
 <body>
     <section class="header">
@@ -93,10 +93,10 @@
                         <p> ถ้าคุณต้องการตัวละครสุดเทพ สุดเจ๋ง อีกทั้งยังมีทรัพยากรมากมาย</p><br>
                         <p>สามารถเลือกรับชมสินค้าของเราได้เลย</p><br>
                         <a href="" class="hero-btn2">Buy Now</a>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
         </div>
 
@@ -107,37 +107,45 @@
     <section class="review">
         <div class="row">
             <div class="review-col">
-                <div class = "column1">
-                <div >
-                    <p>เว็บนี้ดีได้มากเลยค่ะ เชื่อถือได้เเน่นอน </p>
-                    <p>ยืนยันจากผู้มีประสบการณ์การใช้งานจริง</p>
-                 <center>   <h3>---Harry---</h3></center>
-                 <div class="text1">
-                 <center>   <p>review</p></center>
+                <div class="column1">
+                    <div>
+                        <p>เว็บนี้ดีได้มากเลยค่ะ เชื่อถือได้เเน่นอน </p>
+                        <p>ยืนยันจากผู้มีประสบการณ์การใช้งานจริง</p>
+                        <center>
+                            <h3>---Harry---</h3>
+                        </center>
+                        <div class="text1">
+                            <center>
+                                <p>review</p>
+                            </center>
+                        </div>
+
+                    </div>
+                    <img src="https://i.pinimg.com/736x/d4/1d/6f/d41d6f125f19328fe57c853d1588f049.jpg">
                 </div>
-                
-                </div>
-                <img src="https://i.pinimg.com/736x/d4/1d/6f/d41d6f125f19328fe57c853d1588f049.jpg">
-         </div>
             </div>
             <div class="review-col">
-            <div class = "column1">
-                <div >
-                    <p>มีไอดีเกมส์ให้เลือกหลากหลาย</p>
-                    <p> ราคาย่อมเยาว์ น่าเชื่อถือ  </p>
+                <div class="column1">
+                    <div>
+                        <p>มีไอดีเกมส์ให้เลือกหลากหลาย</p>
+                        <p> ราคาย่อมเยาว์ น่าเชื่อถือ </p>
 
-                 <center>   <h3>---Ploy---</h3></center>
-                 <div class="text1">
-                 <center>   <p>review</p></center>
+                        <center>
+                            <h3>---Ploy---</h3>
+                        </center>
+                        <div class="text1">
+                            <center>
+                                <p>review</p>
+                            </center>
+                        </div>
+                    </div>
+                    <img src="https://f.ptcdn.info/624/071/000/qjuhyf2vudOyCK6m350-o.jpg">
                 </div>
-                </div>
-                <img src="https://f.ptcdn.info/624/071/000/qjuhyf2vudOyCK6m350-o.jpg">
             </div>
-             </div>
-            
+
         </div>
 
-        
+
 
 
 
