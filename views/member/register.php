@@ -47,7 +47,7 @@
 
                                         <div class="form-outline mb-4">
                                             <input type="tel" id="typePhone" class="form-control form-control-lg" name="phone" />
-                                            <label class="form-label" for="typePhone">Phone number input</label>
+                                            <label class="form-label" for="typePhone">Phone number </label>
                                         </div>
 
                                         <div class="form-outline mb-4">
