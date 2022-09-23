@@ -144,12 +144,36 @@
             </div>
 
         </div>
-
-
-
-
-
     </section>
+ <!-- --------footer---------- -->
+    <footer>
+    <div class="main-content">
+        <div class="left box">
+            <h2>KeyID</h2>
+            <div class="content">
+                <p>เว็บไซต์ KeyId เป็นเพียงสำหรับจำหน่ายเท่านั้นไม่มีส่วนเกี่ยวข้องกับองค์กรหรือบุคคลใดๆ โปรดระวังมิจฉาชีพแอบอ้างบัญชีเพื่อหลอกให้ผู้อื่นจ่ายค่าสินค้ายแทน</p>
+                <div class="social">
+                    <a href="#"><span class="fab fa-facebook-f"></span></a>
+                    <a href="#"><span class="fab fa-line"></span></a>
+            
+                </div>
+            </div>
+        </div>
+      <div class="content box">
+        </div> 
+        <div class="right box">
+        <h2>ติดต่อทีมงาน</h2>
+            <div class="content">
+            <div class="phone">
+                <span class="fas fa-phone-alt"></span>
+                <span class="text">xxx-xxx-xxxx</span>
+            </div>
+            </div>
+
+        </div>
+    </div>
+        
+</footer>
 
 
 
