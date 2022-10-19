@@ -1,202 +1,248 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta name="viewport" content="with=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,300;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https:stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="stylesheet/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-    <title>Security</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KEYIDSHOP</title>
 
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="../../css/all.css">
+
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="../../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../css/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="../../css/aos.css">
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="../../css/Style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 </head>
 
-<!------------------------------------------------ส่วนหน้าเว็บแรก--------------------------------------------------------->
-
 <body>
-    <section class="header">
-        <nav>
-            <a href="views/homepage/home.php"><img src="../../images/logo.png"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">SHOP</a></li>
-                    <li><a href="">RECHARGE</a></li>
-                    <li><a href="">HELP</a></li>
-                    <li><a href="" class="hero-btn3">LOGIN</a></li>
+
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand"><br>
+                <a href="#" class="logo"><i class="fas fa-gamepad"> KEYIDSHOP</a></i>
+
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">SHOP</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">RECHARGE</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">HELP</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">LOGIN</a>
+                    </li>
                 </ul>
-            </div><br>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <div class="text-box">
-            <h1>Cool Id Cool Play, Buy If You Want To Be Cool
-            </h1>
-            <h1>You Want To Be Cool
-            </h1><br><br>
-            <p>รวมไอดีเกมส์ออนไลน์ที่ดีที่สุดไว้ที่นี่</p>
-            <a href="" class="hero-btn">Detail</a>
+            </div>
 
         </div>
-    </section>
+    </nav>
 
-    <!------------------------------------------ส่วน เกมน่าขายประจำเดือน------------------------------------------------------>
-    <section class="course">
-        <h1>Game the mouth</h1>
-        <div class="row">
-            <div class="course-col">
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
 
-                <img src="https://images6.alphacoders.com/116/1167243.jpg">
-                <h4>pc&mobile</h4>
-                <h3>Genshin Impact</h3>
-                <p>700$</p><br>
-                <a href="" class="hero-btn1">Buy Now</a>
+    <!----------------------------- Main Site Section ------------------------------>
 
+    <main>
+
+        <!------------------------ Site Title ---------------------->
+
+        <section class="site-title">
+            <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+                <br><br><br><br><br><br><br><br>
+                <h1>Cool Id Cool Play, Buy If You Want To Be Cool
+                </h1>
+                <h1>You Want To Be Cool
+                </h1><br><br>
+                <h4>รวมไอดีเกมส์ออนไลน์ที่ดีที่สุดไว้ที่นี่</h4>
             </div>
-            <div class="course-col">
-                <img src="https://www.pockettactics.com/wp-content/sites/pockettactics/2022/09/tower-of-fantasy-wallpaper-shirli-and-nemesis.jpg">
-                <h4>pc&mobile</h4>
-                <h3>Tower of Fantasy</h3>
-                <p>400$</p><br>
-                <a href="" class="hero-btn1">Buy Now</a>
+        </section>
 
-            </div>
-            <div class="course-col">
-                <img src="https://images4.alphacoders.com/707/thumb-1920-707865.jpg"><br>
-                <h4>pc&mobile</h4>
-                <h3>Death by Daylight</h3>
-                <p>340$ </p><br>
-                <a href="" class="hero-btn1">Buy Now</a>
+        <!------------x----------- Site Title ----------x----------->
 
-            </div>
-        </div>
-    </section>
-    <!------------------------------------promote------------------------------------------------------------------>
+        <!-- --------------------- Blog Carousel ----------------- -->
 
-    <section class="promote">
+        <section><br><br>
+            <center>
+                <h5>Game the mouth</h5>
+   
+            </center>
+            <div class="blog">
+                <div class="container">
+                    <div class="owl-carousel owl-theme blog-post">
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="https://images6.alphacoders.com/116/1167243.jpg" alt="post-1">
+                            <div class="blog-title">
 
-        <div class="row">
-            <div class="promote1">
-                <img src="../../images/promote.png">
-
-            </div>
-            <div class="column-col">
-                <div class="column">
-                    <h6>Buy UID Games from</h6><br>
-                    <h6>Every Corner of The</h6><br>
-                    <h6>World With US</h6><br>
-                    <div class="column-col1">
-                        <p>KeyIdShop แหล่งรวม UID เกมส์แท้ ราคาถูก หลากหลายเกมส์</p><br>
-                        <p>บริการขายยก ID มีตัวละครสุดเจ๋ง ให้คุณเลือกครอบครองมากมาย</p><br>
-                        <p> รับประกันความปลอดภัย</p><br><br>
-                        <p> ถ้าคุณต้องการตัวละครสุดเทพ สุดเจ๋ง อีกทั้งยังมีทรัพยากรมากมาย</p><br>
-                        <p>สามารถเลือกรับชมสินค้าของเราได้เลย</p><br>
-                        <a href="" class="hero-btn2">Buy Now</a>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-
-    </section>
-
-    <!------------------------------------------------review------------------------------------------------->
-    <section class="review">
-        <div class="row">
-            <div class="review-col">
-                <div class="column1">
-                    <div>
-                        <p>เว็บนี้ดีได้มากเลยค่ะ เชื่อถือได้เเน่นอน </p>
-                        <p>ยืนยันจากผู้มีประสบการณ์การใช้งานจริง</p>
-                        <center>
-                            <h3>---Harry---</h3>
-                        </center>
-                        <div class="text1">
-                            <center>
-                                <p>review</p>
-                            </center>
+                                <h6>pc&mobile</h6>
+                                <h3>Genshin Impact</h3>
+                                <p>700$</p>
+                                <a href="" class="hero-btn1">Detail</a>
+                            </div>
                         </div>
+                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                            <img src="https://www.pockettactics.com/wp-content/sites/pockettactics/2022/09/tower-of-fantasy-wallpaper-shirli-and-nemesis.jpg"
+                                alt="post-1">
+                            <div class="blog-title">
+                                <h6>pc&mobile</h6>
+                                <h3>Tower of Fantasy</h3>
+                                <p>400$</p>
+                                <a href="" class="hero-btn1">Detail</a>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
+                            <img src="https://www.unpause.asia/wp-content/uploads/Valorant-Riot-Games-FPS-Online-Multiplayer-esports-e-sports-counter-strike-cs-go-free-to-play.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h6>pc&mobile</h6>
+                                <h3>Valorant</h3>
+                                <p>540$ </p>
+                                <a href="" class="hero-btn1">Detail</a>
 
-                    </div>
-                    <img src="https://i.pinimg.com/736x/d4/1d/6f/d41d6f125f19328fe57c853d1588f049.jpg">
-                </div>
-            </div>
-            <div class="review-col">
-                <div class="column1">
-                    <div>
-                        <p>มีไอดีเกมส์ให้เลือกหลากหลาย</p>
-                        <p> ราคาย่อมเยาว์ น่าเชื่อถือ </p>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
+                            <img src="https://images.livemint.com/img/2020/06/03/600x338/Valorant_1591218052835_1591218061187.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h6>pc&mobile</h6>
+                                <h3>Valorant</h3>
+                                <p>340$ </p>
+                                <a href="" class="hero-btn1">Detail</a>
 
-                        <center>
-                            <h3>---Ploy---</h3>
-                        </center>
-                        <div class="text1">
-                            <center>
-                                <p>review</p>
-                            </center>
+                            </div>
                         </div>
                     </div>
-                    <img src="https://f.ptcdn.info/624/071/000/qjuhyf2vudOyCK6m350-o.jpg">
+                    <div class="owl-navigation">
+                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ----------x---------- Blog Carousel --------x-------- -->
+
+        <!-- ---------------------- Site Content -------------------------->
+
+        <section class="container">
+
+
+            <div class="row">
+                <div class="post-image">
+                    <div>
+                        <img src="../../images/promote.png" class="img">
+                    </div>
+
+                </div>
+                <div class="column-col">
+                    <div class="column">
+                        <h2>Buy UID Games from</h2>
+                        <h2>Every Corner of The</h2>
+                        <h2>World With US</h2>
+                        <div class="column-col1">
+                            <p>KeyIdShop แหล่งรวม UID เกมส์แท้ ราคาถูก หลากหลายเกมส์</p>
+                            <p>บริการขายยก ID มีตัวละครสุดเจ๋ง ให้คุณเลือกครอบครองมากมาย</p>
+                            <p> รับประกันความปลอดภัย</p>
+                            <p> ถ้าคุณต้องการตัวละครสุดเทพ สุดเจ๋ง อีกทั้งยังมีทรัพยากรมากมาย</p>
+                            <p>สามารถเลือกรับชมสินค้าของเราได้เลย</p>
+                            <a href="" class="hero-btn1">Buy Now</a>
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
-        </div>
-    </section>
- <!-- --------footer---------- -->
-    <footer>
-    <div class="main-content">
-        <div class="left box">
-            <h2>KeyID</h2>
-            <div class="content">
-                <p>เว็บไซต์ KeyId เป็นเพียงสำหรับจำหน่ายเท่านั้นไม่มีส่วนเกี่ยวข้องกับองค์กรหรือบุคคลใดๆ โปรดระวังมิจฉาชีพแอบอ้างบัญชีเพื่อหลอกให้ผู้อื่นจ่ายค่าสินค้ายแทน</p>
-                <div class="social">
-                    <a href="#"><span class="fab fa-facebook-f"></span></a>
-                    <a href="#"><span class="fab fa-line"></span></a>
-            
+            </div>
+
+            </div>
+        </section>
+
+        <!-- -----------x---------- Site Content -------------x------------>
+
+    </main>
+
+    <!---------------x------------- Main Site Section ---------------x-------------->
+<section class="review">
+
+
+
+
+    
+</section>
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                <h2>About us</h2>
+                <p>เว็บไซต์ KeyId เป็นเพียงสำหรับจำหน่ายเท่านั้น
+                    ไม่มีส่วนเกี่ยวข้องกับองค์กรหรือบุคคลใด ๆ
+                    โปรดระวังมิจฉาชีพแอบอ้างบัญชีเพื่อหลอกให้ผู้อื่นจ่ายค่าสินค้าแทน.</p>
+            </div>
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                <h2>Newsletter</h2>
+                <p>Stay update with our latest</p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+  
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow us</h2>
+                <p>Let us be Social</p>
+                <div>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
                 </div>
             </div>
         </div>
-      <div class="content box">
-        </div> 
-        <div class="right box">
-        <h2>ติดต่อทีมงาน</h2>
-            <div class="content">
-            <div class="phone">
-                <span class="fas fa-phone-alt"></span>
-                <span class="text">xxx-xxx-xxxx</span>
-            </div>
-            </div>
+        <div class="rights flex-row">
 
         </div>
-    </div>
-        
-</footer>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+        </div>
+    </footer>
 
+    <!-- -------------x------------- Footer --------------------x------------------- -->
 
+    <!-- Jquery Library file -->
+    <script src="../../js/Jquery3.4.1.min.js"></script>
 
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="../../js/owl.carousel.min.js"></script>
 
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="../../js/aos.js"></script>
 
-    <!-- --------Js ทำปุ่มเมนู---------- -->
-    <script>
-        var navLinks = document.getElementById("navLinks");
-
-        function showMenu() {
-            navLinks.style.right = "0";
-        }
-
-        function hideMenu() {
-            navLinks.style.right = "-200px";
-        }
-    </script>
-    <!-- ---------------------- -->
-
-
+    <!-- Custom Javascript file -->
+    <script src="../../js/main.js"></script>
 </body>
-
-
 
 </html>
